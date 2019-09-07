@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Cadastro";
+    Layout = "~/Areas/AreaRestrita/Views/Shared/Layout.cshtml";
+}
+
+@section scripts{
+    <script src=" ~/JS/Tarefa/Cadastro.js"></script>
+}
+
+<br />
+<h4>Cadastro de Tarefas</h4>
+<hr />
+<div class="row">
+    <div id="erros" class="text-danger"></div>
+</div>
+
+<div class="row">
+
+    <div class="col-md-10">
+        <label>Título da Tarefa:</label>
+        <input type="text" id="titulo" class="form-control"
+               placeholder="Descreva a atividade" />
+
+        <br />
+        <button id="btncadastro" class="btn btn-success">
+            Cadastrar Tarefa
+        </button>
+
+        <div id="mensagem" class="text-success"></div>
+    </div>
+
+</div>

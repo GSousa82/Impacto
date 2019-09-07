@@ -1,0 +1,6 @@
+C:\Users\Tees\Documents\GitHub\TesteImpacto\Projeto.Entidades\bin\Debug\Projeto.Entidades.dll
+C:\Users\Tees\Documents\GitHub\TesteImpacto\Projeto.Entidades\bin\Debug\Projeto.Entidades.pdb
+C:\Users\Tees\Documents\GitHub\TesteImpacto\Projeto.Entidades\obj\Debug\Projeto.Entidades.csprojAssemblyReference.cache
+C:\Users\Tees\Documents\GitHub\TesteImpacto\Projeto.Entidades\obj\Debug\Projeto.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Tees\Documents\GitHub\TesteImpacto\Projeto.Entidades\obj\Debug\Projeto.Entidades.dll
+C:\Users\Tees\Documents\GitHub\TesteImpacto\Projeto.Entidades\obj\Debug\Projeto.Entidades.pdb

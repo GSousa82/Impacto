@@ -1,0 +1,93 @@
+﻿
+@{
+    ViewBag.Title = "Consulta";
+    Layout = "~/Areas/AreaRestrita/Views/Shared/Layout.cshtml";
+}
+
+@section scripts{
+    <script src="~/JS/Tarefa/Consulta.js"></script>
+}
+
+<br />
+<h4>Consulta de Tarefas</h4>
+<hr />
+
+<div id="mensagem"></div>
+
+<table id="tabela" class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Concluída</th>
+            <th>Título</th>
+            <th>Operações</th>
+        </tr>
+    </thead>
+
+    <tbody></tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="7">
+                Quantidade de registros: <span id="quantidade"></span>
+            </td>
+        </tr>
+    </tfoot>
+
+</table>
+
+<!-- janela modal para exclusão -->
+<div id="janelaexclusao" class="modal fade">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-danger">
+                <h3 class="text-white">Excluir Produto</h3>
+            </div>
+            <div class="modal-body">
+                Deseja realmente excluir a tarefa selecionada?
+                <hr />
+                Código da Tarefa: <span id="idtarefa_exclusao"></span>
+                <br />
+                Título da Tarefa: <span id="titulo_exclusao"></span>
+                <br />
+               
+            </div>
+            <div class="modal-footer">
+                <button id="btnexclusao" class="btn btn-danger"
+                        data-dismiss="modal">
+                    Excluir Tarefa
+                </button>
+                <button class="btn btn-info" data-dismiss="modal">
+                    Cancelar
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- janela modal para edição -->
+<div id="janelaedicao" class="modal fade">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-primary">
+                <h3 class="text-white">Atualizar Tarefa</h3>
+            </div>
+            <div class="modal-body">
+                <div id="erros" class="text-danger"></div>
+                <input type="hidden" id="idtarefa_edicao" />
+                <label>Título da Tarefa:</label>
+                <input type="text" id="titulo_edicao" class="form-control campo"
+                       placeholder="Descreva a Tarefa" />
+                <br />
+               
+            </div>
+            <div class="modal-footer">
+                <button id="btnedicao" class="btn btn-primary">
+                    Atualizar Tarefa
+                </button>
+                <button class="btn btn-info" data-dismiss="modal">
+                    Cancelar
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+

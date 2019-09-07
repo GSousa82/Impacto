@@ -1,0 +1,4 @@
+﻿create table Tarefa(
+IdTarefa integer identity(1,1),
+Titulo nvarchar(250) not null,
+primary key(IdTarefa))

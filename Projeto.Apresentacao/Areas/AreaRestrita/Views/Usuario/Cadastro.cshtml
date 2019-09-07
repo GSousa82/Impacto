@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewBag.Title = "Cadastro";
+    Layout = "~/Areas/AreaRestrita/Views/Shared/Layout.cshtml";
+}
+
+@section scripts{
+    <script src="~/JS/Usuario/Cadastro.js"></script>
+}
+
+<br />
+
+<h4>Cadastro de Usuários</h4>
+
+<hr />
+<div class="row">
+    <div id="erros" class="text-danger"></div>
+</div>
+<div class="row">
+
+
+    <div class="col-md-3">
+        <label>Nome:</label>
+        <input type="text" id="nome" class="form-control"
+               placeholder="Nome do Usuário" />
+        <br />
+
+        <label>Email:</label>
+        <input type="text" id="email" class="form-control"
+               placeholder="Email do Usuário" />
+        <br />
+
+        <label>Tipo de Permissão:</label>
+        <select id="dropList" class="form-control">
+            <option value="">Selecione o tipo</option>
+            <option value="Administrador">Administrador</option>
+            <option value="Usuario">Usuario</option>
+        </select>
+        <br />
+
+        <button id="btncadastro" class="btn btn-success">
+            Cadastrar Usuário
+        </button>
+
+        <div id="mensagem" class="text-success"></div>
+
+    </div>
+
+    <div class="col-md-3">
+        <label>Senha:</label>
+        <input type="password" id="senha" class="form-control"
+               placeholder="Senha do Usuário" />
+        <br />
+
+        <label>Confirmar Senha:</label>
+        <input type="password" id="conf_senha" class="form-control"
+               placeholder="Senha do Usuário" />
+        <br />
+
+    </div>
+</div>
