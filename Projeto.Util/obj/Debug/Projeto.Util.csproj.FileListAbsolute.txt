@@ -4,3 +4,9 @@ C:\Users\Tees\Documents\GitHub\TesteImpacto\Projeto.Util\obj\Debug\Projeto.Util.
 C:\Users\Tees\Documents\GitHub\TesteImpacto\Projeto.Util\obj\Debug\Projeto.Util.csproj.CoreCompileInputs.cache
 C:\Users\Tees\Documents\GitHub\TesteImpacto\Projeto.Util\obj\Debug\Projeto.Util.dll
 C:\Users\Tees\Documents\GitHub\TesteImpacto\Projeto.Util\obj\Debug\Projeto.Util.pdb
+C:\Users\Tees\Documents\GitHub\Impacto\Projeto.Util\bin\Debug\Projeto.Util.dll
+C:\Users\Tees\Documents\GitHub\Impacto\Projeto.Util\bin\Debug\Projeto.Util.pdb
+C:\Users\Tees\Documents\GitHub\Impacto\Projeto.Util\obj\Debug\Projeto.Util.csprojAssemblyReference.cache
+C:\Users\Tees\Documents\GitHub\Impacto\Projeto.Util\obj\Debug\Projeto.Util.csproj.CoreCompileInputs.cache
+C:\Users\Tees\Documents\GitHub\Impacto\Projeto.Util\obj\Debug\Projeto.Util.dll
+C:\Users\Tees\Documents\GitHub\Impacto\Projeto.Util\obj\Debug\Projeto.Util.pdb

@@ -100,7 +100,8 @@ function atualizarTarefa() {
             }
         }
     });
-};
+};
+
 
 $(document).ready(function () {
     
@@ -116,16 +117,11 @@ $(document).ready(function () {
    
 });
 
-$('input').click(function () {
-    input = $(this);
-    classVal = "." + input.val();
-    elements = $(classVal);
-
-    if (input.is(':checked')) {
-        elements.css("background-color", "#FFFF00");
-        elements.css("opacity", 1);
-    } else {
-        elements.css("background-color", "");
-        elements.css("opacity", 0.33);
-    }
-});
+/*$(document).click(function () {
+  $('#concluido').click(function () {
+      val checked = $("input[type='checkbox']").val();
+      if (checked == true) {
+          alert("Teste de checked");
+      }
+    });
+});*/
